@@ -11,7 +11,7 @@ docker pull ghcr.io/jamestripp/rse-midlands-talk-example-1:main
 and run the docker interactively via the below command.
 
 ```bash
-
+docker run -it ghcr.io/jamestripp/rse-midlands-talk-example-1:main
 ```
 
 The image differs from the presently latest image only with the addition of the faker python module.
